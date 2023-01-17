@@ -1,5 +1,3 @@
-FROM nginx:latest
-
 FROM node:18 as build
 ARG REACT_APP_BACKEND_URL
 
